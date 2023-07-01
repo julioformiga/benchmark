@@ -1,0 +1,19 @@
+[tool.pyright]
+extraPaths = [".venv/lib/python3.10/site-packages/"]
+reportGeneralTypeIssues = false
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Julio Formiga", email = "julio.formiga@gmail.com"},
+]
+dependencies = [
+    "cffi>=1.15.1",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+start = "python main.py"
