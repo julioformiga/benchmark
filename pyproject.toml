@@ -6,14 +6,15 @@ reportGeneralTypeIssues = false
 name = ""
 version = ""
 description = ""
-authors = [
-    {name = "Julio Formiga", email = "julio.formiga@gmail.com"},
-]
-dependencies = [
-    "cffi>=1.15.1",
-]
+authors = [{ name = "Julio Formiga", email = "julio.formiga@gmail.com" }]
+dependencies = ["cffi>=1.15.1"]
 requires-python = ">=3.10"
-license = {text = "MIT"}
+license = { text = "MIT" }
 
+[tool.ruff]
+select = ["B", "E", "F", "I", "N", "RUF"]
+
+[tool.ruff.pydocstyle]
+convention = "pep257" # Accepts: "google", "numpy", or "pep257".
 [tool.pdm.scripts]
 start = "python main.py"
