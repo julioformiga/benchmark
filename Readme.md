@@ -25,5 +25,5 @@ Time: 287.7175698539995
 
 # References
 
-https://cffi.readthedocs.io/en/latest/overview.html
-https://sschakraborty.github.io/benchmark/nbody.html
+- https://cffi.readthedocs.io/en/latest/overview.html
+- https://sschakraborty.github.io/benchmark/nbody.html
