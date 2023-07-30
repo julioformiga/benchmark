@@ -1,4 +1,6 @@
+import platform
 from timeit import timeit
+
 import nbody._nbody as nbody_c
 from nbody.nbody_2 import nbody as nbody_python
 
@@ -16,11 +18,11 @@ def calc_python(n=1):
     print(f"{nbody_python(n):.9f}")
 
 
-print("N-Body - Python+C")
+print(f"N-Body - Python {platform.python_version()} with C module")
 print("Time:", timeit(f"calc_c({n})", number=1, setup="from __main__ import calc_c"))
 print()
 
-print("N-Body - Python")
+print(f"N-Body - Python {platform.python_version()}")
 print(
     "Time:",
     timeit(f"calc_python({n})", number=1, setup="from __main__ import calc_python"),
