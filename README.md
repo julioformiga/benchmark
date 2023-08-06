@@ -2,13 +2,15 @@
 
 ## Compile
 
-```console title="./nbody/$"
+./nbody/$
+```bash
 python compile.py
 ```
 
 ## Execute
 
-```console title="./$"
+./$
+```bash
 python main.py
 ```
 ```console
