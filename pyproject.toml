@@ -8,7 +8,7 @@ version = ""
 description = ""
 authors = [{ name = "Julio Formiga", email = "julio.formiga@gmail.com" }]
 dependencies = ["cffi>=1.15.1"]
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = { text = "MIT" }
 
 [tool.ruff]
